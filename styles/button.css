@@ -1,0 +1,21 @@
+.button{
+    cursor: pointer;
+    border-radius: .6rem;
+    border-left: .1rem solid #69cbfb;
+    border-right: .1rem solid #eb767b;
+    border-top: .1rem solid transparent;
+    border-bottom: .1rem solid transparent;
+    background-color: transparent;
+    background-position: 0 0 , 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% .1rem;
+    background-image: linear-gradient(to right,#69cbfb 0,#8f9ff1 50%,#eb767b 100%) , linear-gradient(to right,#69cbfb 0,#8f9ff1 50%,#eb767b 100%);
+}
+
+.button-address{
+    font-weight: 300;
+    font-size: 16px;
+    color: #333333;
+    width: 150px;
+    height: 45px;
+}

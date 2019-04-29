@@ -1,0 +1,91 @@
+.head-acc{
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    padding-top: 20px;
+    color: #000000;
+}
+
+.nice-card{
+    width: 770px;
+    height: 180px;
+    background: linear-gradient(90deg, rgba(0, 185, 228, 0.2) 8.84%, rgba(73, 105, 173, 0.2) 38.12%, rgba(126, 102, 161, 0.2) 68.51%, rgba(155, 101, 155, 0.2) 91.71%);
+    border-radius: 16px;
+}
+
+.description-acc{
+    padding: 0 15px;
+    font-size: 30px;
+    text-align: center;
+    width: 95%;
+    height: 60%;
+    color: #000000;
+}
+
+.organizations{
+    font-weight: 500;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.connected-organizations{
+    margin-top: 65px;
+}
+
+.allow-organizations{
+    margin-top: 50px;
+}
+
+.organization{
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    margin: 15px 0;
+}
+
+.image{
+    position: absolute;
+    left: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.organization-button{
+    position: absolute;
+    right: 10px;
+    width: 160px;
+    height: 45px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.organization-description{
+    margin-left: 85px;
+}
+
+.organization-description > div{
+    text-align: left;
+}
+
+.organization-description > div:first-child{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.organization-description > div:last-child{
+    font-size: 16px;
+}
+
+.organizations-description{
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+    color: #333333;
+    opacity: 0.5;
+}

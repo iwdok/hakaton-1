@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Личный кабинет</title>
+    <link rel=icon href="../source/favicon.png" sizes="16x16" type="image/png">
+    <link rel="stylesheet" type="text/css" href="../styles/index.css">
+    <link rel="stylesheet" type="text/css" href="../styles/checkbox.css">
+    <link rel="stylesheet" type="text/css" href="../styles/button.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="https://www.ubrr.ru/" class="img-link"><img class="logo" src="../source/Logo.png" alt="error"></a>
+            <a href="http://api.justmsn.ru/" class="docs">Документация</a>
+            <a href="index.html" class="acc">Личный кабинет</a>
+            <a href="mod.html" class="mod">УБРиР.mod</a>
+        </div>
+    </div>
+    <div class="site-content">
+        <div class="acc-name">
+            <img class="face" src="../source/Face.jpg" alt="error">
+            <ul class="fio">
+                <li>Усталова</li>
+                <li>Мария</li>
+                <li>Дмитриевна</li>
+            </ul>
+        </div>
+        <div class="acc-setting">
+            <div class="setting-block">
+                <div class="head">Телефон</div>
+                <div class="annotation">Телефон нужен, чтобы подтверждать операции и настройки счета</div>
+                <div class="input-block">
+                    <div>Телефон (основной)</div>
+                    <input type="text" placeholder="+7 (123) 456-78-90" value="+7 (123) 456-78-90">
+                </div>
+            </div>
+            <div class="setting-block">
+                <div class="head">Email</div>
+                <div class="annotation">На почту приходят выписки, счета и справки</div>
+                <div class="input-block">
+                    <div>Email (основной)</div>
+                    <input type="text" placeholder="example@examplae.ru" value="example@examplae.ru">
+                </div>
+            </div>
+            <div class="setting-block">
+                <div class="head">Адрес</div>
+                <div class="annotation">Выберите, куда банк будет направлять почтовую корреспонденцию</div>
+                <div class="input-block">
+                    <div>Адрес регистрации</div>
+                    <input type="text" placeholder="464000, г. Екатеринбург, ул. Ленина, д. 1, кв. 1" value="464000, г. Екатеринбург, ул. Ленина, д. 1, кв. 1">
+                </div>
+                <div class="input-radio">
+                    <input class="checkbox" type="radio" name="main_address" id="radio">
+                    <label class="radio" for="radio">Основной адрес</label>
+                </div>
+                <div class="input-block">
+                    <div>Адрес фактического проживания</div>
+                    <input type="text" placeholder="464000, г. Екатеринбург, ул. Ленина, д. 1, кв. 1" value="464000, г. Екатеринбург, ул. Ленина, д. 1, кв. 1">
+                </div>
+                <div class="input-radio">
+                    <input class="checkbox" type="radio" name="main_address" checked="checked" id="radio1">
+                    <label class="radio" for="radio1">Основной адрес</label>
+                </div>
+                <div class="btn-place">
+                    <button class="button button-address">Сохранить</button>
+                </div>
+            </div>
+        </div>
+        <div class="setting-block">
+            <div class="head">Счета</div>
+            <div class="input-block">
+                <div class="input-header">Счет RUB</div>
+                <div>Банк получатель</div>
+                <input type="text" placeholder="ПАО «Уральский банк реконструкции и развития»" value="ПАО «Уральский банк реконструкции и развития»">
+                <div>Корр. счет</div>
+                <input type="text" placeholder="30101810900000000795" value="30101810900000000795">
+                <div>БИК</div>
+                <input type="text" placeholder="046577795" value="046577795">
+                <div>Получатель</div>
+                <input type="text" placeholder="Усталова Мария Дмитриевна" value="Усталова Мария Дмитриевна">
+                <div>Счет получателя</div>
+                <input type="text" placeholder="40817810099910004312" value="40817810099910004312">
+                <div>Назначение платежа</div>
+                <input type="text" placeholder="Перевод средств по Усталова Мария Дмитриевна НДС не облагается">
+                <div>ИНН</div>
+                <input type="text" placeholder="Поле оставьте пустым (при строгой необходимости заполнять поле – укажите 6608008004">
+                <div>КПП</div>
+                <input type="text" placeholder="Поле оставьте пустым (при строгой необходимости заполнять поле – укажите 667101001">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div>Команда "Шалом" | 2019</div>
+    </div>
+</body>
+</html>
